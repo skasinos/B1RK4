@@ -67,8 +67,8 @@ Please contact s.kasinos@gmail.com.
 
 ## References
 
-[1]
+[1] Kasinos, S. Seismic response analysis of linear and nonlinear secondary structures. PhD thesis, 2018.
 
-[2] 
+[2] Giaralis, A. and Kougioumtzoglou, I. A stochastic dynamics approach for response spectrum analysis of bilinear systems using time-dependent equivalent linear properties. Proceedings of the 12th International Conference on Applications of Statistics and Probability in Civil Engineering, 2015.
 
 
