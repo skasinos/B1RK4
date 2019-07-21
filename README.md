@@ -61,7 +61,7 @@ switches the directory on the command prompt. To run the solver then use:
 
 Upon successful completion of the analysis the output .txt file will be found in the same directory as the solver. This file will contain four columns, namely, time ![](https://latex.codecogs.com/gif.latex?%5Cinline%20t), and the response state variables ![](https://latex.codecogs.com/gif.latex?%5Cinline%20u%28t%29), ![](https://latex.codecogs.com/gif.latex?%5Cinline%20%5Cdot%7Bu%7D%28t%29) and ![](https://latex.codecogs.com/gif.latex?%5Cinline%20z%28t%29), respectively. The user can process this file by a third-party software to plot the results.
 
-## 7. Output
+## 7. Support
 
 Please contact s.kasinos@gmail.com.
 
