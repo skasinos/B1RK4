@@ -1,2 +1,2 @@
-# B1RK4
-Standalone executable solver that calculates the response of a bilinear single-degree-of-freedom oscillator to arbitrary base acceleration excitation
+# B1RK4 solver for the bilinear single-degree-of-freedom	oscillator response to arbitrary base acceleration excitation.
+
