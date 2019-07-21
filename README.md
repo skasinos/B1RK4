@@ -11,7 +11,9 @@ The program runs on Windows operating system directly from the command prompt, w
 
 The following equation is solved [1]:
 
-![](https://latex.codecogs.com/gif.latex?%5Cddot%7Bu%7D%28t%29&plus;2%5C%2C%5Czeta%5Comega%5C%2C%5Cdot%7Bu%7D%28t%29&plus;%5Cpsi%5C%2C%5Comega%5E2u%28t%29&plus;a%281-%5Cpsi%29z%28t%29%3D-%5Cddot%7B%5Cxi%7D%28t%29%20%5C%2C%3B%20%5C%3B%5C%3B%5C%3B%20u%280%29%3D%20%7B%5Cdot%7Bu%7D%7D%280%29%3D0%20%5C%2C%2C)
+<p align="center">
+<img src="https://latex.codecogs.com/gif.latex?%5Cddot%7Bu%7D%28t%29&plus;2%5C%2C%5Czeta%5Comega%5C%2C%5Cdot%7Bu%7D%28t%29&plus;%5Cpsi%5C%2C%5Comega%5E2u%28t%29&plus;a%281-%5Cpsi%29z%28t%29%3D-%5Cddot%7B%5Cxi%7D%28t%29%20%5C%2C%3B%20%5C%3B%5C%3B%5C%3B%20u%280%29%3D%20%7B%5Cdot%7Bu%7D%7D%280%29%3D0%20%5C%2C%2C">
+</p>
 
 where ![](https://latex.codecogs.com/svg.latex?%5Cinline%20u%28t%29) denotes the displacement response of the oscillator; ![](https://latex.codecogs.com/svg.latex?%5Cinline%20%5Cddot%7B%5Cxi%7D%28t%29) is the base acceleration time history input, in which the overdot denotes differentiation with respect to time;
 
@@ -20,3 +22,5 @@ where ![](https://latex.codecogs.com/svg.latex?%5Cinline%20u%28t%29) denotes the
 [1]
 
 [2] 
+
+
