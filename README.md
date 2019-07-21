@@ -15,3 +15,8 @@ The following equation is solved [1]:
 
 where ![](https://latex.codecogs.com/svg.latex?%5Cinline%20u%28t%29) denotes the displacement response of the oscillator; ![](https://latex.codecogs.com/svg.latex?%5Cinline%20%5Cddot%7B%5Cxi%7D%28t%29) is the base acceleration time history input, in which the overdot denotes differentiation with respect to time;
 
+# References
+
+[1]
+
+[2] 
