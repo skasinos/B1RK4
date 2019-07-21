@@ -1,8 +1,17 @@
 # B1RK4 solver for the bilinear single-degree-of-freedom	oscillator response to arbitrary base acceleration excitation
 
 <p align="center">
+<b> User Instructions </b><br>
+</p>
+
+<p align="center">
 <b> S. Kasinos </b><br>
 </p>
+
+<p align="center">
+<b> July 21, 2019 </b><br>
+</p>
+
 
 # 1. Introduction
 
