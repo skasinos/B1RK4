@@ -1,7 +1,7 @@
 # B1RK4 solver for the bilinear single-degree-of-freedom	oscillator response to arbitrary base acceleration excitation
 
 <p align="center">
-<b> User Instructions </b><br>
+<b>  User Instructions </b><br>
 </p>
 
 <p align="center">
@@ -13,14 +13,14 @@
 </p>
 
 
-# 1. Introduction
+## 1. Introduction
 
 B1RK4 is a standalone executable program written in C++ that calculates the response of a bilinear single-degree-of-freedom oscillator to an arbitrary base acceleration input via the fourth-order Runge-Kutta formulation. It can be used in standalone mode, or in conjunction with third-party software. It may find application in parametric, stochastic analysis and optimisation, and can assist learning on the subject of structural dynamics.
 
-# 2. System requirements
+## 2. System requirements
 The program runs on Windows operating system directly from the command prompt, without the requirement to use any other software. 
 
-# 3. Formulation
+## 3. Formulation
 
 The following equation is solved [1]:
 
@@ -38,11 +38,34 @@ where ![](https://latex.codecogs.com/svg.latex?%5Cinline%20H%28%5Ccdot%29) denot
 
 Setting ![](https://latex.codecogs.com/svg.latex?%5Cinline%20%5Cpsi%3D0), corresponds to an elastic-perfectly-plastic case; alternatively, setting ![](https://latex.codecogs.com/svg.latex?%5Cinline%20%5Cpsi%3D1) results in the linear regime of motion. 
 
-# 4. Preparing the input file
+## 4. Preparing the input file
 
+Prior to running the solver, the user must provide a standard fixed-length .txt input file which must be placed in the same directory as the solver. The first line comprises of five parameters, namely ![](https://latex.codecogs.com/svg.latex?%5Cinline%20n%2C%20%5Comega%2C%20%5Czeta%2C%20a) and ![](https://latex.codecogs.com/svg.latex?%5Cinline%20%5Cpsi), where ![](https://latex.codecogs.com/svg.latex?%5Cinline%20n) is the length of the input acceleration time history array. The remaining lines are written in two-column format, and list the instances of time ![](https://latex.codecogs.com/svg.latex?%5Cinline%20t) and the input acceleration ![](https://latex.codecogs.com/svg.latex?%5Cinline%20%5Cddot%7B%5Cxi%7D%28t%29), respectively. It is noted that the parameters in each line must be separated with double white space. A consistent system of units should be chosen such as the units of ![](https://latex.codecogs.com/svg.latex?%5Cinline%20%5B%7B%5Crm%7Brad%7D%7D/%7B%5Crm%7Bs%7D%7D%5D) for ![](https://latex.codecogs.com/svg.latex?%5Cinline%20%5Comega), and ![](https://latex.codecogs.com/svg.latex?%5Cinline%20%5B%7B%5Crm%7Bm%7D%7D%7B%5Crm%7Bs%7D%7D%5E%7B-2%7D%5D) for ![](https://latex.codecogs.com/svg.latex?%5Cinline%20a) and ![](https://latex.codecogs.com/svg.latex?%5Cinline%20%5Cddot%7B%5Cxi%7D%28t%29).
 
+## 5. Running the solver
 
-# References
+The solver **cannot** be executed by double clicking the executable file. To run the solver, start the command prompt and navigate from the current directory to the one where the executable file is located. For example, 
+
+  ```latex
+ cd Desktop
+  ```
+switches the directory on the command prompt. To run the solver then use:
+
+  ```latex
+ B1RK4.exe In.txt Out.txt
+  ```
+  
+ which instructs the command prompt to run the solver after reading the input text file In.txt and write the output to Out.txt. It is noted, that this can also be achieved by calling the system command prompt from a third-party software such as MATLAB or PYTHON. 
+  
+## 6. Output
+
+Upon successful completion of the analysis the output .txt file will be found in the same directory as the solver. This file will contain four columns, namely, time ![](https://latex.codecogs.com/gif.latex?%5Cinline%20t), and the response state variables ![](https://latex.codecogs.com/gif.latex?%5Cinline%20u%28t%29), ![](https://latex.codecogs.com/gif.latex?%5Cinline%20%5Cdot%7Bu%7D%28t%29) and ![](https://latex.codecogs.com/gif.latex?%5Cinline%20z%28t%29), respectively. The user can process this file by a third-party software to plot the results.
+
+## 7. Output
+
+Please contact s.kasinos@gmail.com.
+
+## References
 
 [1]
 
